@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/argus-collision/analyze
+Content-Type: application/json
+
+{
+  "targetObjectName": "Starlink-Ford-12",
+  "currentLatitude": -23.5631,
+  "currentLongitude": -46.6543,
+  "currentAltitude": 400.0
+}
